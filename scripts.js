@@ -9,9 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const strength = parseInt(document.getElementById('strength-input').value);
         const creativity = parseInt(document.getElementById('creativity-input').value);
         const collaboration = parseInt(document.getElementById('collaboration-input').value);
-        const accountability = parseInt(document.getElementById('accountability-input').value);
 
-        const totalXP = (charisma + intelligence + wisdom + dexterity + strength + creativity + collaboration + accountability) * 2;
+        const totalXP = (charisma + intelligence + wisdom + dexterity + strength + creativity + collaboration) * 2;
 
         const totalXPInput = document.createElement('input');
         totalXPInput.type = 'hidden';
